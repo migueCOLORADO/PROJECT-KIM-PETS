@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>COLLARES & CORREAS</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+        />
+        <link rel="shorcut icon" href="../../IMG/Kim_pets.jpg">
+        <link rel="stylesheet" type="text/css" href="./Carrito.css">
+        <link rel="stylesheet" href="./main.css">
+        <script src="https://kit.fontawesome.com/d88d17486c.js"></script>
+    </head>
+
+    <body>
+        <main class="cont-main" id="PRODUCTO">
+            <header class="header">
+                <div class="header-navegacion">
+                    <i class="fa-solid fa-bars fa-lg" id="menu-icono"></i>
+                    <div class="header-logo-box">
+                        <h1><a href="../../../../index.php">KIM PETS</a></h1>
+                    </div>
+
+                    <nav class="menu">
+                        <ul class="menu-listado">
+                            <li><a class="menu-activo" href="../../productos.html">PRODUCTOS</a></li>
+                            <li><a class="menu-activo" href="../../../Perdidos/perdidos.html">PERDIDOS</a></li>
+                            <li><a class="menu-activo" href="../../../donaciones/donaciones.html">DONACIONES</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <!--MODAL MENU-->
+                <div class="modal-menu-b">
+                    <nav class="modal-menu">
+                        <i class="fa-solid fa-x" id="x-icono"></i>
+                        <ul class="modal-menu-listado">
+                            <li><a class="modal-menu-activo" href="../../productos.html">PRODUCTOS</a></li>
+                            <li><a class="modal-menu-activo" href="../../../Perdidos/perdidos.html">PERDIDOS</a></li>
+                            <li><a class="modal-menu-activo" href="../../../nosotros/nosotros.html">NOSOTROS</a></li>
+                            <li><a class="modal-menu-activo" href="../../../donaciones/donaciones.html">DONACIONES</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="header-cart-avatar">
+                    <div class="header-cart">
+                        <div class="header-cart--noti">0</div>
+                        <i class="fa-solid fa-cart-shopping fa-lg"></i>
+                    </div>
+                    <a href="../../../Usuario/Usuario.php"><img class="header-avatar" src="../../IMG/foto ga.jpg"></a>
+                </div>
+            </header>
+
+
+            <section class="contenido">
+                <article class="galeria">
+                    <div class="galeria-img">
+                        <i class="fa-solid fa-arrow-left" id="galeria-prev"></i>
+                        <i class="fa-solid fa-arrow-right" id="galeria-next"></i>
+                    </div>
+
+                    <div class="galeria-conts">
+                        <img id="1" src="../../IMG/collares-1.jpg" class="galeria-cont">
+                        <img id="2" src="../../IMG/collares-2.jpg" class="galeria-cont">
+                        <img id="3" src="../../IMG/collares-3.jpg" class="galeria-cont">
+                        <img id="4" src="../../IMG/collares-4.jpg" class="galeria-cont">
+                    </div>
+                </article>
+
+                <article class="info">
+                    <h2 class="info-company"><a href="../../../nosotros/nosotros.html">KIM PETS</a></h2>
+                    <h2 class="info-title">COLLARES & CORREAS</h2>
+                    <p class="info-descripcion">Collares para mascotas en tallas M y L con medidas detalladas en la última imagen de la publicación. No la importancia de verificar la talla antes de comprar y solo se ofrece cambios para clientes en Medellín, tambien ten en cuenta que hay costos de envío adicionales para otras ciudades. Garantiza envío inmediato y menciona que los colores pueden variar ligeramente debido a la iluminación y la pantalla. ELIGE EL COLOR QUE DESEES</p>
+                    <p class="info-precio">$31.500</p>
+
+                    <div class="info-compra">
+                        <div class="input">
+                            <i class="fa-solid fa-minus" id="input-minus"></i>
+                            <input type="text" class="input-number" value="0" id="input-number">
+                            <i class="fa-solid fa-plus" id="input-plus"></i>
+                        </div>
+                        <button class="info-button"><i class="fa-solid fa-cart-shopping fa-lg" id="input-icon-btn"></i>AÑADIR AL CARRITO</button>
+                    </div>
+                </article>
+            </section>
+
+            <!--MODAL CARRITO-->
+            <div class="cart-modal">
+                <p class="cart-modal-titulo">CART</p>
+                <div class="cart-modal-cont">
+                    <div class="cart-modal-det-cont">
+                        <img src="../../IMG/collares-1.jpg" class="cart-modal-img" alt="">
+                        <div>
+                            <p class="cart-modal-producto">COLLARES & CORREAS</p>
+                            <p class="cart-modal-precio">$31.500 x1 <span>$31.500</span></p>
+                        </div>
+                        <i class="fa-solid fa-trash" id="cart-modal-delete"></i>
+                    </div>
+                    <a href="https://wa.link/ay8cin" class="cart-modal-pagar">COMPRAR</a>
+                </div>
+            </div>
+
+            <!--GALERIA MODAL-->
+            <div class="modal-galeria-b">
+                <i class="fa-solid fa-x" id="galeria-x-icono"></i>
+                <article class="modal-galeria">
+                    <div class="modal-galeria-img">
+                        <i class="fa-solid fa-arrow-left" id="modal-galeria-prev"></i>
+                        <i class="fa-solid fa-arrow-right" id="modal-galeria-next"></i>
+                    </div>
+                    <div class="modal-galeria-conts">
+                        <img id="m1" src="../../IMG/collares-1.jpg" class="modal-galeria-cont">
+                        <img id="m2" src="../../IMG/collares-2.jpg" class="modal-galeria-cont">
+                        <img id="m3" src="../../IMG/collares-3.jpg" class="modal-galeria-cont">
+                        <img id="m4" src="../../IMG/collares-4.jpg" class="modal-galeria-cont">
+                    </div>
+                </article>
+            </div>
+        </main>
+
+        <div class="titulo" id="RECOMENDADOS">
+            <h2>RECOMENDADOS</h2>
+        </div>
+        
+        <section class="carrusel">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="iconos">
+                            <i class="fa-solid fa-circle-arrow-left"></i>
+                            <img src="../../IMG/Kim_pets.jpg" alt="">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+
+                        <div class="producto" >
+                            <div class="producto-info">
+                                <span>$32.500</span>
+                                <h3>COLLARES LED</h3>
+                                <p>
+                                    Collar LED recargable para mascotas que es cómodo, resistente al agua y evita que tu mascota se pierda en la oscuridad
+                                </p>
+                            </div>
+                            <div class="producto-img">
+                                <a href=""><img src="../../IMG/led-1.webp" alt=""></a>
+                            </div>
+                        </div>
+                        <a href="../LED/Led.html" class="btn-1">COMPRAR</a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="iconos">
+                            <i class="fa-solid fa-circle-arrow-left"></i>
+                            <img src="../../IMG/Kim_pets.jpg" alt="">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+
+                        <div class="producto" >
+                            <div class="producto-info">
+                                <span>$32.500</span>
+                                <h3>PECHERAS</h3>
+                                <p>
+                                    Pecheras y Arneses Esteticos, Comodos y Funcionales que, Gracias a su Fabricacion en Malla Suave y Transpirable no Tallan ni se Enredan en el Pelaje de Tus Mascotas
+                                </p>
+                            </div>
+                            <div class="producto-img">
+                                <a href=""><img src="../../IMG/pecheras-1.webp" alt=""></a>
+                            </div>
+                        </div>
+                        <a href="../PECHERAS/Pecheras.html" class="btn-1">COMPRAR</a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="iconos">
+                            <i class="fa-solid fa-circle-arrow-left"></i>
+                            <img src="../../IMG/Kim_pets.jpg" alt="">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+
+                        <div class="producto">
+                            <div class="producto-info">
+                                <span>$28.900</span>
+                                <h3>PLACA SENCILLA</h3>
+                                <p>
+                                    Placas con Figuras Predeterminadas que Reflejan la Personalidad de Tu Mascota, al Brindar Seguridad, Durabilidad y Facilidad a la Hora de Usarlas, y asi Mantener a tus Amigos Peludos, Seguros y con Estilo
+                                </p>
+                            </div>
+                            <div class="producto-img">
+                                <a href=""><img src="../../IMG/placa-1.webp" alt=""></a>
+                            </div>
+                        </div>
+                        <a href="../SENCILLAS/Sencillas.html" class="btn-1">COMPRAR</a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="iconos">
+                            <i class="fa-solid fa-circle-arrow-left"></i>
+                            <img src="../../IMG/Kim_pets.jpg" alt="">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+
+                        <div class="producto">
+                            <div class="producto-info">
+                                <span>$85.900</span>
+                                <h3>PLACAS CUSTOM</h3>
+                                <p>
+                                    Placas Cuyo Diseño es Elaborado segun las Necesidades y/o Gustos del Cliente
+                                </p>
+                            </div>
+                            <div class="producto-img">
+                                <a href="#placas-personalizables"><img src="../../IMG/placas personalizadas (1).jpeg" alt=""></a>
+                            </div>
+                        </div>
+                        <a href="../CUSTOM/Custom.html" class="btn-1">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="contenedor-footer">
+                <div class="content-foo">
+                    <a href="./index.php"><img src="../../IMG/Kim_pets.jpg" class="logo-footer"></a>
+                    <p>Tu Compromiso & Nuestra Misión : Uniendo Lazos & Protegiendo Patas</p>
+                </div>
+                <div class="content-foo">
+                    <h3>INFORMACION <div class="animacion"><span></span></div></h3>
+                    <p>PROGRAMACION DE SOFTWARE</p>
+                    <p>I.E DIEGO ECHAVARRIA MISAS</p>
+                    <p>ITAGUI | ANTIOQUIA | COLOMBIA</p>
+                    <p class="email">kimpets42@gmail.com</p>
+                    <h4>+57 302 3413722</h4>
+                </div>
+                <div class="content-foo">
+                    <h3>MENU<div class="animacion"><span></span></div></h3>
+                    <ul>
+                        <li><a href="#PRODUCTO">PRODUCTO</a></li>
+                        <li><a href="#RECOMENDADOS">RECOMENDADOS</a></li>
+                    </ul>
+                </div>
+                <div class="content-foo">
+                    <h3>RECURSOS<div class="animacion"><span></span></div></h3>
+                    <form action="correo_re.php" method="post">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" placeholder="INGRESA TU EMAIL" name="correo">
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-iconos">
+                        <a href="https://www.facebook.com/profile.php?id=61550718666759"><i class="fa-brands fa-facebook fa-beat"></i></a>
+                        <a href="https://instagram.com/kim_pets_dem?utm_source=qr&igshid=MThlNWY1MzQwNA=="><i class="fa-brands fa-instagram fa-beat"></i></a>
+                        <a href="https://www.tiktok.com/@kimpets42"><i class="fa-brands fa-tiktok fa-beat"></i></a>
+                        <a href="https://wa.link/y4whzo"><i class="fa-brands fa-whatsapp fa-beat"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">KIM PETS © | TODOS LOS DERECHOS RESERVADOS</p>
+        </footer>
+        
+        <script src="./main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                effect: "coverflow",
+                gradCursor: true,
+                centeredSlides: true, 
+                slidesPerView: "auto",
+                loop: true,
+                coverflowEffect: {
+                    depth: 500,
+                    modifer: 1,
+                    slidesShadows: true,
+                    rotate:0,
+                    stretch:0,
+                }
+            })
+        </script>
+    </body>
+</html>

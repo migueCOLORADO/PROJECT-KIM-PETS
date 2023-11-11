@@ -1,0 +1,32 @@
+
+@mixin modal-b {
+    position: absolute; background-color: hsl(0,0%, 0%, 0.5); top: 73px; left: 0; width: 100%; height: 92%; z-index: 1;
+}
+
+@mixin galeria-btn($top , $left, $hide) {
+    background-color: white; border-radius: 50px; width: 40px; height: 40px; padding: 12px; position: absolute; top: $top; left: $left;
+
+    @media (min-width: 800px) {
+        @if ($hide == true) {
+            display: block;
+        }
+        @else {
+            display: none;
+        }
+
+    }
+}
+
+@mixin input-icons {
+    width: 25px; height: 100%; display: grid; place-content: center; 
+}
+
+@mixin info-button {
+    background-color: black; color: white; width: 100%; height: 57px; border-radius: 8px; border: none; font-size: 0.9em; font-weight: 700; display: flex; align-items: center; justify-content: center; gap: 16px; cursor: pointer; transition: 0.5s; text-decoration: none;
+
+    &:hover {
+        color: #5da6bf; background-color: white; box-shadow: 0 0 20px rgba(0,0,0,0.2); transition: 0.5s;
+    }
+}
+
+
